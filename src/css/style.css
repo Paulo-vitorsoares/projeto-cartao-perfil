@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background: var(--background-soft);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: white;
+    border-radius:  12px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;    
+}  
+
+.card .card-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .card-profile img{
+    border: solid 6px var(--text-dark);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card .profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-numbers .info .counter,
+.card .card-profile p{
+    font-weight: 700;
+}
+
+.card .card-profile .age,
+.card .card-profile .city,
+.profile-numbers .info .counter-type{
+    color: var(--text-medium);
+}
